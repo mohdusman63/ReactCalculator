@@ -1,2 +1,2 @@
 # ReactCalculator
-React calculator using Reack Hook. it perform following operation +,-,%,root,Factorial 
+React calculator using React Hook. it perform following operation +,-,%,underroot,Factorial 
