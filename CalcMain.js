@@ -1,9 +1,5 @@
 import React, { useState } from 'react';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
-
-
- 
-
 const CalcMain=()=>{
     const [Number,setNumber]=useState('')
     const handle=(e)=>{
@@ -41,11 +37,8 @@ const CalcMain=()=>{
         <>
        <div className="container">
     <div className="row">
-       
-        <div className="col-md-3 mx-auto">
-        
-            
-            <div className="btn-group-vertical my-4" role="group" aria-label="Basic example">
+      <div className="col-md-3 mx-auto">
+         <div className="btn-group-vertical my-4" role="group" aria-label="Basic example">
             <input type="text" style={{padding:10,textAlign:"right"}} value={Number}/>
                 <div className="btn-group ">
                     <button type="button"  className="btn btn-secondary border-bottom-0 rounded-0 " name="7" onClick={handle} >7</button>
